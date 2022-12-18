@@ -1,0 +1,580 @@
+<!doctype html>
+<html class="no-js" lang="sv">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta name="theme-color" content="">
+	<title>DjInhammar</title>
+	<link rel="stylesheet" href="base.css">
+
+	<script integrity="sha256-pfEFLtGor1q9LzHf7xpslSiKa+MZ45v9cHL18ZbWNhI=" data-source-attribution="shopify.loadfeatures" defer="defer" src="//cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-a5f1052ed1a8af5abd2f31dfef1a6c95288a6be319e39bfd7072f5f196d63612.js" crossorigin="anonymous"></script>
+	<script integrity="sha256-h+g5mYiIAULyxidxudjy/2wpCz/3Rd1CbrDf4NudHa4=" data-source-attribution="shopify.dynamic-checkout" defer="defer" src="//cdn.shopify.com/shopifycloud/shopify/assets/storefront/features-87e8399988880142f2c62771b9d8f2ff6c290b3ff745dd426eb0dfe0db9d1dae.js" crossorigin="anonymous"></script>
+	<script id="sections-script" data-sections="header,footer" defer="defer" src="//cdn.shopify.com/s/files/1/0656/4947/5851/t/2/compiled_assets/scripts.js?15"></script>
+	<style id="shopify-dynamic-checkout-cart">
+	@media screen and (min-width: 750px) {
+		#dynamic-checkout-cart {
+			min-height: 50px;
+		}
+	}
+	
+	@media screen and (max-width: 750px) {
+		#dynamic-checkout-cart {
+			min-height: 60px;
+		}
+	}
+	</style>
+	<script>
+	window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.end');
+	</script>
+	<style data-shopify>
+	@font-face {
+		font-family: "Avenir Next";
+		font-weight: 500;
+		font-style: normal;
+		font-display: swap;
+		src: url("https://fonts.shopifycdn.com/avenir_next/avenirnext_n5.972a96b7a049f12c89d6d1cd0e1b6c9211f7ba14.woff2?&hmac=9ecce13e9758a49a481fe140022e957c9a20af75e385b055e68099bfe3c72cce") format("woff2"), url("https://fonts.shopifycdn.com/avenir_next/avenirnext_n5.9e88d20fa9eb66ba268ac60ab013006ef69a310a.woff?&hmac=95062bdc6bf310fb603835ca66e932d1af8cc220ca11613365819e0c2b7a1364") format("woff");
+	}
+	
+	@font-face {
+		font-family: "Avenir Next";
+		font-weight: 700;
+		font-style: normal;
+		font-display: swap;
+		src: url("https://fonts.shopifycdn.com/avenir_next/avenirnext_n7.8cfc646eab1e39e2d81a26284624600ccae49d55.woff2?&hmac=483950e1b5a4c701731c51c7d599e7e521b6687653632dd49172c3a632be4fec") format("woff2"), url("https://fonts.shopifycdn.com/avenir_next/avenirnext_n7.25b10f8089bc87dfd8e50a7c68b433da7a04bc87.woff?&hmac=949a47f28226694553f4530022fc5bfa1066a050f0a1dc68177b93ec8c81ef8e") format("woff");
+	}
+	
+	@font-face {
+		font-family: "Avenir Next";
+		font-weight: 500;
+		font-style: italic;
+		font-display: swap;
+		src: url("https://fonts.shopifycdn.com/avenir_next/avenirnext_i5.2d1a6d537e5b485482d6bcca34a56cc10d441a55.woff2?&hmac=a8dd0488ce0fdd35c7291cbdf320891647f3c0b4e7887e56d254106824cdcadb") format("woff2"), url("https://fonts.shopifycdn.com/avenir_next/avenirnext_i5.fcfa37c68ca483c41031623bfae4701d99bb4b95.woff?&hmac=68358ee5e996a895f992ae0b4bfcd0540af5511e6f06db2e465c09a832640c0f") format("woff");
+	}
+	
+	@font-face {
+		font-family: "Avenir Next";
+		font-weight: 700;
+		font-style: italic;
+		font-display: swap;
+		src: url("https://fonts.shopifycdn.com/avenir_next/avenirnext_i7.3a67996166b5b7f1b7cc3b35490ebd6824908dc5.woff2?&hmac=af3d0f0649a6fa3ec131be4036a88e968a030a63c9c370cbbaa14cf17107bd3f") format("woff2"), url("https://fonts.shopifycdn.com/avenir_next/avenirnext_i7.b872875ff437f0efb4c2321d0016eaa726b649ae.woff?&hmac=523722c4c3759c28ca62ecdaa5358dc515eed1983a479562425731ec3ee4ba2b") format("woff");
+	}
+	
+	@font-face {
+		font-family: Oswald;
+		font-weight: 500;
+		font-style: normal;
+		font-display: swap;
+		src: url("https://fonts.shopifycdn.com/oswald/oswald_n5.22b74dce86cb1e4738ccceb326c9284bc24641e9.woff2?&hmac=256f250370668206f3bfbe260fab6a322d79fbcb081e75752e011661fdd37cd9") format("woff2"), url("https://fonts.shopifycdn.com/oswald/oswald_n5.c60897f79173105d5bae1e28e68e9326a4a64631.woff?&hmac=d7f8895c45930088ece25b970d0b1bf6c7e15a4c120cbc539c8b5219e5369bc7") format("woff");
+	}
+	
+	:root {
+		--font-body-family: "Avenir Next", sans-serif;
+		--font-body-style: normal;
+		--font-body-weight: 500;
+		--font-body-weight-bold: 800;
+		--font-heading-family: Oswald, sans-serif;
+		--font-heading-style: normal;
+		--font-heading-weight: 500;
+		--font-body-scale: 1.0;
+		--font-heading-scale: 1.4;
+		--color-base-text: 255, 255, 255;
+		--color-shadow: 255, 255, 255;
+		--color-base-background-1: 31, 31, 33;
+		--color-base-background-2: 31, 31, 33;
+		--color-base-solid-button-labels: 31, 31, 33;
+		--color-base-outline-button-labels: 227, 252, 2;
+		--color-base-accent-1: 227, 252, 2;
+		--color-base-accent-2: 255, 255, 255;
+		--payment-terms-background-color: #1f1f21;
+		--gradient-base-background-1: #1f1f21;
+		--gradient-base-background-2: #1f1f21;
+		--gradient-base-accent-1: #e3fc02;
+		--gradient-base-accent-2: #ffffff;
+		--media-padding: px;
+		--media-border-opacity: 0.1;
+		--media-border-width: 0px;
+		--media-radius: 0px;
+		--media-shadow-opacity: 0.0;
+		--media-shadow-horizontal-offset: 0px;
+		--media-shadow-vertical-offset: 4px;
+		--media-shadow-blur-radius: 5px;
+		--media-shadow-visible: 0;
+		--page-width: 160rem;
+		--page-width-margin: 0rem;
+		--product-card-image-padding: 0.0rem;
+		--product-card-corner-radius: 0.0rem;
+		--product-card-text-alignment: left;
+		--product-card-border-width: 0.0rem;
+		--product-card-border-opacity: 0.1;
+		--product-card-shadow-opacity: 0.0;
+		--product-card-shadow-visible: 0;
+		--product-card-shadow-horizontal-offset: 0.0rem;
+		--product-card-shadow-vertical-offset: 0.4rem;
+		--product-card-shadow-blur-radius: 0.5rem;
+		--collection-card-image-padding: 0.0rem;
+		--collection-card-corner-radius: 0.0rem;
+		--collection-card-text-alignment: left;
+		--collection-card-border-width: 0.0rem;
+		--collection-card-border-opacity: 0.1;
+		--collection-card-shadow-opacity: 0.0;
+		--collection-card-shadow-visible: 0;
+		--collection-card-shadow-horizontal-offset: 0.0rem;
+		--collection-card-shadow-vertical-offset: 0.4rem;
+		--collection-card-shadow-blur-radius: 0.5rem;
+		--blog-card-image-padding: 0.0rem;
+		--blog-card-corner-radius: 0.0rem;
+		--blog-card-text-alignment: left;
+		--blog-card-border-width: 0.0rem;
+		--blog-card-border-opacity: 0.1;
+		--blog-card-shadow-opacity: 0.0;
+		--blog-card-shadow-visible: 0;
+		--blog-card-shadow-horizontal-offset: 0.0rem;
+		--blog-card-shadow-vertical-offset: 0.4rem;
+		--blog-card-shadow-blur-radius: 0.5rem;
+		--badge-corner-radius: 4.0rem;
+		--popup-border-width: 1px;
+		--popup-border-opacity: 0.1;
+		--popup-corner-radius: 0px;
+		--popup-shadow-opacity: 0.0;
+		--popup-shadow-horizontal-offset: 0px;
+		--popup-shadow-vertical-offset: 4px;
+		--popup-shadow-blur-radius: 5px;
+		--drawer-border-width: 1px;
+		--drawer-border-opacity: 0.1;
+		--drawer-shadow-opacity: 0.0;
+		--drawer-shadow-horizontal-offset: 0px;
+		--drawer-shadow-vertical-offset: 4px;
+		--drawer-shadow-blur-radius: 5px;
+		--spacing-sections-desktop: 52px;
+		--spacing-sections-mobile: 36px;
+		--grid-desktop-vertical-spacing: 40px;
+		--grid-desktop-horizontal-spacing: 40px;
+		--grid-mobile-vertical-spacing: 20px;
+		--grid-mobile-horizontal-spacing: 20px;
+		--text-boxes-border-opacity: 0.1;
+		--text-boxes-border-width: 0px;
+		--text-boxes-radius: 0px;
+		--text-boxes-shadow-opacity: 0.0;
+		--text-boxes-shadow-visible: 0;
+		--text-boxes-shadow-horizontal-offset: 0px;
+		--text-boxes-shadow-vertical-offset: 4px;
+		--text-boxes-shadow-blur-radius: 5px;
+		--buttons-radius: 0px;
+		--buttons-radius-outset: 0px;
+		--buttons-border-width: 1px;
+		--buttons-border-opacity: 1.0;
+		--buttons-shadow-opacity: 0.0;
+		--buttons-shadow-visible: 0;
+		--buttons-shadow-horizontal-offset: 0px;
+		--buttons-shadow-vertical-offset: 4px;
+		--buttons-shadow-blur-radius: 5px;
+		--buttons-border-offset: 0px;
+		--inputs-radius: 0px;
+		--inputs-border-width: 1px;
+		--inputs-border-opacity: 0.55;
+		--inputs-shadow-opacity: 0.0;
+		--inputs-shadow-horizontal-offset: 0px;
+		--inputs-margin-offset: 0px;
+		--inputs-shadow-vertical-offset: 4px;
+		--inputs-shadow-blur-radius: 5px;
+		--inputs-radius-outset: 0px;
+		--variant-pills-radius: 40px;
+		--variant-pills-border-width: 1px;
+		--variant-pills-border-opacity: 0.55;
+		--variant-pills-shadow-opacity: 0.0;
+		--variant-pills-shadow-horizontal-offset: 0px;
+		--variant-pills-shadow-vertical-offset: 4px;
+		--variant-pills-shadow-blur-radius: 5px;
+	}
+	
+	*,
+	*::before,
+	*::after {
+		box-sizing: inherit;
+	}
+	
+	html {
+		box-sizing: border-box;
+		font-size: calc(var(--font-body-scale) * 62.5%);
+		height: 100%;
+	}
+	
+	body {
+		display: grid;
+		grid-template-rows: auto auto 1fr auto;
+		grid-template-columns: 100%;
+		min-height: 100%;
+		margin: 0;
+		font-size: 1.5rem;
+		letter-spacing: 0.06rem;
+		line-height: calc(1 + 0.8 / var(--font-body-scale));
+		font-family: var(--font-body-family);
+		font-style: var(--font-body-style);
+		font-weight: var(--font-body-weight);
+	}
+	
+	@media screen and (min-width: 750px) {
+		body {
+			font-size: 1.6rem;
+		}
+	}
+	</style>
+</head>
+
+<body class="gradient"> <a class="skip-to-content-link button visually-hidden" href="#MainContent">
+      Gå vidare till innehåll
+    </a>
+	<div id="shopify-section-announcement-bar" class="shopify-section">
+		<div class="announcement-bar color-accent-1 gradient" role="region" aria-label="Meddelande">
+			<div class="page-width">
+				<p class="announcement-bar__message center h5"> Välkommen till DjInhammar! </p>
+			</div>
+		</div>
+	</div>
+	<div id="shopify-section-header" class="shopify-section section-header">
+		<link rel="stylesheet" href="//cdn.shopify.com/s/files/1/0656/4947/5851/t/2/assets/component-list-menu.css?v=151968516119678728991671033312" media="print" onload="this.media='all'">
+		<link rel="stylesheet" href="//cdn.shopify.com/s/files/1/0656/4947/5851/t/2/assets/component-search.css?v=96455689198851321781671033311" media="print" onload="this.media='all'">
+		<link rel="stylesheet" href="//cdn.shopify.com/s/files/1/0656/4947/5851/t/2/assets/component-menu-drawer.css?v=182311192829367774911671033311" media="print" onload="this.media='all'">
+		<link rel="stylesheet" href="//cdn.shopify.com/s/files/1/0656/4947/5851/t/2/assets/component-cart-notification.css?v=183358051719344305851671033311" media="print" onload="this.media='all'">
+		<link rel="stylesheet" href="//cdn.shopify.com/s/files/1/0656/4947/5851/t/2/assets/component-cart-items.css?v=23917223812499722491671033315" media="print" onload="this.media='all'">
+		<noscript>
+			<link href="//cdn.shopify.com/s/files/1/0656/4947/5851/t/2/assets/component-list-menu.css?v=151968516119678728991671033312" rel="stylesheet" type="text/css" media="all" />
+		</noscript>
+		<noscript>
+			<link href="//cdn.shopify.com/s/files/1/0656/4947/5851/t/2/assets/component-search.css?v=96455689198851321781671033311" rel="stylesheet" type="text/css" media="all" />
+		</noscript>
+		<noscript>
+			<link href="//cdn.shopify.com/s/files/1/0656/4947/5851/t/2/assets/component-menu-drawer.css?v=182311192829367774911671033311" rel="stylesheet" type="text/css" media="all" />
+		</noscript>
+		<noscript>
+			<link href="//cdn.shopify.com/s/files/1/0656/4947/5851/t/2/assets/component-cart-notification.css?v=183358051719344305851671033311" rel="stylesheet" type="text/css" media="all" />
+		</noscript>
+		<noscript>
+			<link href="//cdn.shopify.com/s/files/1/0656/4947/5851/t/2/assets/component-cart-items.css?v=23917223812499722491671033315" rel="stylesheet" type="text/css" media="all" />
+		</noscript>
+		<style>
+		header-drawer {
+			justify-self: start;
+			margin-left: -1.2rem;
+		}
+		
+		.header__heading-logo {
+			max-width: 80px;
+		}
+		
+		@media screen and (min-width: 990px) {
+			header-drawer {
+				display: none;
+			}
+		}
+		
+		.menu-drawer-container {
+			display: flex;
+		}
+		
+		.list-menu {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+		}
+		
+		.list-menu--inline {
+			display: inline-flex;
+			flex-wrap: wrap;
+		}
+		
+		summary.list-menu__item {
+			padding-right: 2.7rem;
+		}
+		
+		.list-menu__item {
+			display: flex;
+			align-items: center;
+			line-height: calc(1 + 0.3 / var(--font-body-scale));
+		}
+		
+		.list-menu__item--link {
+			text-decoration: none;
+			padding-bottom: 1rem;
+			padding-top: 1rem;
+			line-height: calc(1 + 0.8 / var(--font-body-scale));
+		}
+		
+		@media screen and (min-width: 750px) {
+			.list-menu__item--link {
+				padding-bottom: 0.5rem;
+				padding-top: 0.5rem;
+			}
+		}
+		</style>
+		<style data-shopify>
+		.header {
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+		
+		.section-header {
+			margin-bottom: 0px;
+		}
+		
+		@media screen and (min-width: 750px) {
+			.section-header {
+				margin-bottom: 0px;
+			}
+		}
+		
+		@media screen and (min-width: 990px) {
+			.header {
+				padding-top: 20px;
+				padding-bottom: 20px;
+			}
+		}
+		</style>
+		<script src="//cdn.shopify.com/s/files/1/0656/4947/5851/t/2/assets/details-disclosure.js?v=153497636716254413831671033314" defer="defer"></script>
+		<script src="//cdn.shopify.com/s/files/1/0656/4947/5851/t/2/assets/details-modal.js?v=4511761896672669691671033314" defer="defer"></script>
+		<script src="//cdn.shopify.com/s/files/1/0656/4947/5851/t/2/assets/cart-notification.js?v=160453272920806432391671033311" defer="defer"></script>
+		<svg xmlns="http://www.w3.org/2000/svg" class="hidden">
+			<symbol id="icon-search" viewbox="0 0 18 19" fill="none">
+				<path fill-rule="evenodd" clip-rule="evenodd" d="M11.03 11.68A5.784 5.784 0 112.85 3.5a5.784 5.784 0 018.18 8.18zm.26 1.12a6.78 6.78 0 11.72-.7l5.4 5.4a.5.5 0 11-.71.7l-5.41-5.4z" fill="currentColor" /> </symbol>
+			<symbol id="icon-close" class="icon icon-close" fill="none" viewBox="0 0 18 17">
+				<path d="M.865 15.978a.5.5 0 00.707.707l7.433-7.431 7.579 7.282a.501.501 0 00.846-.37.5.5 0 00-.153-.351L9.712 8.546l7.417-7.416a.5.5 0 10-.707-.708L8.991 7.853 1.413.573a.5.5 0 10-.693.72l7.563 7.268-7.418 7.417z" fill="currentColor">
+			</symbol>
+		</svg>
+		<sticky-header class="header-wrapper color-background-1 gradient">
+			<header class="header header--middle-left header--mobile-center page-width">
+				<h1 class="header__heading"><a href="/" class="header__heading-link link link--text focus-inset"><span class="h2">DjInhammar</span></a></h1> </header>
+		</sticky-header>
+		<cart-notification>
+			<div class="cart-notification-wrapper page-width">
+				<div id="cart-notification" class="cart-notification focus-inset color-background-1 gradient" aria-modal="true" aria-label="Artikeln har lagts till i varukorgen" role="dialog" tabindex="-1">
+					<div class="cart-notification__header">
+						<h2 class="cart-notification__heading caption-large text-body"><svg class="icon icon-checkmark color-foreground-text" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 9" fill="none">
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M11.35.643a.5.5 0 01.006.707l-6.77 6.886a.5.5 0 01-.719-.006L.638 4.845a.5.5 0 11.724-.69l2.872 3.011 6.41-6.517a.5.5 0 01.707-.006h-.001z" fill="currentColor"/>
+</svg>
+Artikeln har lagts till i varukorgen</h2>
+						<button type="button" class="cart-notification__close modal__close-button link link--text focus-inset" aria-label="Stäng">
+							<svg class="icon icon-close" aria-hidden="true" focusable="false">
+								<use href="#icon-close">
+							</svg>
+						</button>
+					</div>
+					<div id="cart-notification-product" class="cart-notification-product"></div>
+					<div class="cart-notification__links">
+						<a href="/cart" id="cart-notification-button" class="button button--secondary button--full-width"></a>
+						<form action="/cart" method="post" id="cart-notification-form">
+							<button class="button button--primary button--full-width" name="checkout">Gå till kassan</button>
+						</form>
+						<button type="button" class="link button-label">Fortsätt shoppa</button>
+					</div>
+				</div>
+			</div>
+		</cart-notification>
+		<style data-shopify>
+		.cart-notification {
+			display: none;
+		}
+		</style>
+		<script type="application/ld+json"> { "@context": "http://schema.org", "@type": "Organization", "name": "DjInhammar", "sameAs": [ "", "", "", "", "", "", "", "", "" ], "url": "https:\/\/djinhammar.myshopify.com" } </script>
+		<script type="application/ld+json"> { "@context": "http://schema.org", "@type": "WebSite", "name": "DjInhammar", "potentialAction": { "@type": "SearchAction", "target": "https:\/\/djinhammar.myshopify.com\/search?q={search_term_string}", "query-input": "required name=search_term_string" }, "url": "https:\/\/djinhammar.myshopify.com" } </script>
+	</div>
+	<main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
+		<div id="shopify-section-template--16569987072267__image-with-text" class="shopify-section section">
+			<link href="//cdn.shopify.com/s/files/1/0656/4947/5851/t/2/assets/component-image-with-text.css?v=106189373233589105561671033312" rel="stylesheet" type="text/css" media="all" />
+			<style data-shopify>
+			.section-template--16569987072267__image-with-text-padding {
+				padding-top: 30px;
+				padding-bottom: 0px;
+			}
+			
+			@media screen and (min-width: 750px) {
+				.section-template--16569987072267__image-with-text-padding {
+					padding-top: 40px;
+					padding-bottom: 0px;
+				}
+			}
+			</style>
+			<div class="image-with-text image-with-text--no-overlap page-width isolate collapse-corners section-template--16569987072267__image-with-text-padding">
+				<div class="image-with-text__grid grid grid--gapless grid--1-col grid--2-col-tablet image-with-text__grid--reverse">
+					<div class="image-with-text__media-item image-with-text__media-item--medium image-with-text__media-item--middle grid__item">
+						<div class="image-with-text__media image-with-text__media--adapt gradient color-background-2 global-media-settings media" style="padding-bottom: 66.71999999999998%;"><img src="dj-crowd.webp" width="1500" height="1001" loading="lazy" sizes="(min-width: 1600px) 750px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"> </div>
+					</div>
+					<div class="image-with-text__text-item grid__item">
+						<div id="ImageWithText--template--16569987072267__image-with-text" class="image-with-text__content image-with-text__content--middle image-with-text__content--desktop-left image-with-text__content--mobile-left image-with-text__content--adapt gradient color-background-2 content-container">
+							<h2 class="image-with-text__heading h0">
+                En fest du aldrig glömmer!
+              </h2>
+							<div class="image-with-text__text rte body">
+								<p>På DjInhammar erbjuder vi uthyrning av olika typer av musikutrustning så som DJ-bord, högtalare och lasrar. </p>
+								<p>Vi har allt du behöver för att skapa en minnesvärd fest, oavsett om det är en bröllopsfest, kalas eller bara en riktigt skön fest. </p>
+								<p>Med våra professionella DJ:s och högkvalitativa ljudsystem kan du räkna med en kväll fylld med musik och dans. Vårt mål är att hjälpa dig att skapa en oförglömlig festupplevelse för dig och dina gäster.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<section id="shopify-section-template--16569987072267__collapsible-content" class="shopify-section section">
+			<link href="//cdn.shopify.com/s/files/1/0656/4947/5851/t/2/assets/component-accordion.css?v=180964204318874863811671033311" rel="stylesheet" type="text/css" media="all" />
+			<link href="//cdn.shopify.com/s/files/1/0656/4947/5851/t/2/assets/collapsible-content.css?v=154343504084608763171671033316" rel="stylesheet" type="text/css" media="all" />
+			<style data-shopify>
+			.section-template--16569987072267__collapsible-content-padding {
+				padding-top: 15px;
+				padding-bottom: 15px;
+			}
+			
+			@media screen and (min-width: 750px) {
+				.section-template--16569987072267__collapsible-content-padding {
+					padding-top: 20px;
+					padding-bottom: 20px;
+				}
+			}
+			</style>
+			<div class="color-background-2 gradient">
+				<div class="collapsible-content collapsible-row-layout isolate">
+					<div class="collapsible-content__wrapper section-template--16569987072267__collapsible-content-padding">
+						<div class="collapsible-content-wrapper-narrow">
+							<div class="collapsible-content__header" style="text-align: left;">
+								<h2 class="collapsible-content__heading h1">Vanliga frågor</h2> </div>
+							<div class="grid grid--1-col grid--2-col-tablet collapsible-content__grid">
+								<div class="grid__item">
+									<div class="accordion content-container color-accent-1 gradient">
+										<details id="Details-row-1-template--16569987072267__collapsible-content" open>
+											<summary id="Summary-row-1-template--16569987072267__collapsible-content">
+												<svg class="icon icon-accordion color-foreground-text" aria-hidden="true" focusable="false" role="presentation" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+													<path d="M5.80023 10.2433C5.80023 9.691 6.24795 9.24329 6.80023 9.24329C7.35252 9.24329 7.80023 9.691 7.80023 10.2433C7.80023 10.7956 7.35252 11.2433 6.80023 11.2433C6.24795 11.2433 5.80023 10.7956 5.80023 10.2433Z" />
+													<path d="M9.22974 10.2433C9.22974 9.691 9.67745 9.24329 10.2297 9.24329C10.782 9.24329 11.2297 9.691 11.2297 10.2433C11.2297 10.7956 10.782 11.2433 10.2297 11.2433C9.67745 11.2433 9.22974 10.7956 9.22974 10.2433Z" />
+													<path d="M12.6592 10.2433C12.6592 9.691 13.1069 9.24329 13.6592 9.24329C14.2115 9.24329 14.6592 9.691 14.6592 10.2433C14.6592 10.7956 14.2115 11.2433 13.6592 11.2433C13.1069 11.2433 12.6592 10.7956 12.6592 10.2433Z" />
+													<path d="M16.6445 17.2036C16.6418 17.2023 16.6392 17.2009 16.6365 17.1996C16.3947 17.0764 16.1302 16.9257 15.8701 16.7774C15.2251 16.4099 14.607 16.0576 14.4279 16.1795C13.2314 16.9937 11.7861 17.4696 10.2297 17.4696C6.10323 17.4696 2.75806 14.1244 2.75806 9.99791C2.75806 5.87142 6.10323 2.52625 10.2297 2.52625C14.3562 2.52625 17.7014 5.87142 17.7014 9.99791C17.7014 11.512 17.251 12.9209 16.477 14.0979C16.3445 14.2994 16.6705 14.9403 17.0113 15.6104C17.1583 15.8994 17.308 16.1938 17.4249 16.4607C17.4269 16.4653 17.4289 16.4697 17.4308 16.4742C17.6237 16.9172 17.7239 17.2824 17.5671 17.418C17.4394 17.5544 17.0791 17.4243 16.6445 17.2036ZM18.2593 18.14C17.8792 18.5115 17.4018 18.4853 17.2128 18.461C16.9786 18.4309 16.7562 18.3504 16.587 18.2799C16.2391 18.1348 15.8412 17.9114 15.506 17.7209C15.4611 17.6954 15.4172 17.6704 15.3743 17.6459C15.0837 17.4804 14.8356 17.3391 14.6299 17.2385C13.347 18.0196 11.8396 18.4696 10.2297 18.4696C5.55095 18.4696 1.75806 14.6767 1.75806 9.99791C1.75806 5.31914 5.55095 1.52625 10.2297 1.52625C14.9085 1.52625 18.7014 5.31914 18.7014 9.99791C18.7014 11.5821 18.2656 13.0672 17.5072 14.3369C17.5098 14.3432 17.5125 14.3497 17.5153 14.3564C17.6071 14.5755 17.7411 14.8392 17.8997 15.1513C17.927 15.2049 17.9549 15.2599 17.9835 15.3164C18.1621 15.6689 18.3719 16.0905 18.5003 16.4618C18.5631 16.6435 18.6314 16.8815 18.6427 17.1309C18.6529 17.3561 18.6228 17.7987 18.2593 18.14Z" fill-rule="evenodd" />
+												</svg>
+												<h3 class="accordion__title h4">
+                      Hur bokar jag?
+                    </h3>
+												<svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-caret" viewBox="0 0 10 6">
+													<path fill-rule="evenodd" clip-rule="evenodd" d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" fill="currentColor">
+												</svg>
+											</summary>
+											<div class="accordion__content rte" id="CollapsibleAccordion-row-1-template--16569987072267__collapsible-content" role="region" aria-labelledby="Summary-row-1-template--16569987072267__collapsible-content">
+												<p>För att boka en av våra tjänster kan du skriva till djinhammar@gmail.com eller ringa till +46 70-433 18 22. </p>
+											</div>
+										</details>
+									</div>
+									<div class="accordion content-container color-accent-1 gradient">
+										<details id="Details-row-2-template--16569987072267__collapsible-content">
+											<summary id="Summary-row-2-template--16569987072267__collapsible-content">
+												<svg class="icon icon-accordion color-foreground-text" aria-hidden="true" focusable="false" role="presentation" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+													<path d="M6.31104 9.13574C6.31104 8.99767 6.42296 8.88574 6.56104 8.88574H13.7464C13.8844 8.88574 13.9964 8.99767 13.9964 9.13574C13.9964 9.27381 13.8844 9.38574 13.7464 9.38574H6.56104C6.42296 9.38574 6.31104 9.27381 6.31104 9.13574Z" />
+													<path d="M6.31104 14.0544C6.31104 13.9164 6.42296 13.8044 6.56104 13.8044H13.439C13.577 13.8044 13.689 13.9164 13.689 14.0544C13.689 14.1925 13.577 14.3044 13.439 14.3044H6.56104C6.42296 14.3044 6.31104 14.1925 6.31104 14.0544Z" />
+													<path d="M6.92587 11.5952C6.92587 11.4571 7.0378 11.3452 7.17587 11.3452H12.8241C12.9622 11.3452 13.0741 11.4571 13.0741 11.5952C13.0741 11.7333 12.9622 11.8452 12.8241 11.8452H7.17587C7.0378 11.8452 6.92587 11.7333 6.92587 11.5952Z" />
+													<path d="M5.19623 1.77832C5.19623 0.949892 5.8678 0.27832 6.69623 0.27832H13.3038C14.1322 0.27832 14.8038 0.949893 14.8038 1.77832V3.46728C14.8038 4.29571 14.1322 4.96728 13.3038 4.96728H6.69623C5.8678 4.96728 5.19623 4.29571 5.19623 3.46728V1.77832ZM6.69623 1.27832C6.42009 1.27832 6.19623 1.50218 6.19623 1.77832V3.46728C6.19623 3.74342 6.42009 3.96728 6.69623 3.96728H13.3038C13.5799 3.96728 13.8038 3.74342 13.8038 3.46728V1.77832C13.8038 1.50218 13.5799 1.27832 13.3038 1.27832H6.69623Z" />
+													<path d="M3.73691 2.50806V18.7232H16.2631V2.50806H14.4981V1.50806H16.2631C16.8154 1.50806 17.2631 1.95577 17.2631 2.50806V18.7232C17.2631 19.2755 16.8154 19.7232 16.2631 19.7232H3.73691C3.18462 19.7232 2.73691 19.2755 2.73691 18.7232V2.50806C2.73691 1.95577 3.18462 1.50806 3.73691 1.50806H5.75974V2.50806L3.73691 2.50806Z" />
+												</svg>
+												<h3 class="accordion__title h4">
+                      Vad är era priser?
+                    </h3>
+												<svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-caret" viewBox="0 0 10 6">
+													<path fill-rule="evenodd" clip-rule="evenodd" d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" fill="currentColor">
+												</svg>
+											</summary>
+											<div class="accordion__content rte" id="CollapsibleAccordion-row-2-template--16569987072267__collapsible-content" role="region" aria-labelledby="Summary-row-2-template--16569987072267__collapsible-content">
+												<p>Det är svårt för oss att ge ett exakt pris på våra tjänster eftersom det kan variera beroende på vilken utrustning du önskar hyra, om du vill ha utkörning eller om du ska hämta utrustningen själv, samt om du önskar bokning av en live-DJ och vilken plats och tid du vill att festen ska äga rum. Vi rekommenderar att du kontaktar oss för att få en offert som är anpassad efter dina önskemål och behov. På så sätt kan vi ge dig ett exakt pris så att du vet vad du kan förvänta dig att betala för din fest.</p>
+											</div>
+										</details>
+									</div>
+									<div class="accordion content-container color-accent-1 gradient">
+										<details id="Details-row-3-template--16569987072267__collapsible-content">
+											<summary id="Summary-row-3-template--16569987072267__collapsible-content">
+												<svg class="icon icon-accordion color-foreground-text" aria-hidden="true" focusable="false" role="presentation" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+													<path d="M4.34392 7.16368C4.01559 6.62807 3.5917 6.36975 3.21922 6.39495C2.73316 6.42785 2.45795 6.58174 2.30073 6.74933C2.14054 6.92007 2.05037 7.16105 2.04138 7.46193C2.02254 8.09186 2.36617 8.81926 2.81281 9.17768C3.09955 9.40778 3.55864 9.54479 3.95773 9.4945C4.32171 9.44864 4.59366 9.26185 4.68772 8.84687C4.80166 8.34416 4.66637 7.68972 4.34392 7.16368ZM5.19648 6.64106C5.62446 7.33924 5.84642 8.25859 5.66298 9.06792C5.45965 9.96498 4.78605 10.398 4.08274 10.4867C3.41454 10.5708 2.68459 10.357 2.18694 9.95761C1.49068 9.39888 1.0138 8.36924 1.04182 7.43204C1.05626 6.94936 1.20637 6.45426 1.57143 6.06513C1.93946 5.67284 2.47446 5.44307 3.15171 5.39724C4.05461 5.33615 4.77437 5.95246 5.19648 6.64106Z" />
+													<path d="M7.14946 1.68176C6.9184 1.59371 6.62261 1.70407 6.49559 1.9565C6.22812 2.48805 6.083 3.36616 6.18378 4.10853C6.35261 5.35217 7.25625 5.71812 7.70271 5.65305C7.86816 5.62894 8.12274 5.47614 8.31293 5.14915C8.49419 4.83751 8.59089 4.40403 8.47246 3.90187C8.36055 3.42733 8.19106 2.91836 7.95574 2.49796C7.7165 2.07056 7.44271 1.79351 7.14946 1.68176ZM5.6023 1.50701C5.94378 0.828378 6.76265 0.464216 7.50555 0.747312C8.11181 0.978337 8.53571 1.48675 8.82834 2.00952C9.12489 2.5393 9.32145 3.14522 9.44576 3.67233C9.62415 4.42875 9.48453 5.12377 9.17735 5.65192C8.87909 6.16472 8.39313 6.563 7.84693 6.6426C6.80439 6.79453 5.43013 5.99077 5.19287 4.24305C5.06802 3.32337 5.23428 2.23839 5.6023 1.50701Z" />
+													<path d="M12.6907 1.80274C12.3355 1.97062 12.0017 2.33008 11.8476 2.75928C11.6133 3.41213 11.5804 4.12275 11.9972 4.77771C12.1956 5.08948 12.3753 5.24649 12.5141 5.32269C12.6452 5.39474 12.7606 5.40672 12.8697 5.38874C13.119 5.34765 13.3959 5.13462 13.6039 4.86582C13.6354 4.82509 13.6668 4.77061 13.706 4.68927C13.7204 4.65945 13.7348 4.62961 13.7492 4.59974C13.8655 4.35944 13.9828 4.11688 14.0737 3.86325C14.1756 3.57906 14.2289 3.32057 14.2137 3.09192C14.192 2.76518 13.9579 2.26203 13.5735 1.8984C13.333 1.67099 13.0297 1.64254 12.6907 1.80274ZM12.2635 0.898617C12.8842 0.605286 13.6539 0.598007 14.2606 1.1719C14.7883 1.67098 15.1698 2.39777 15.2115 3.02563C15.2396 3.44739 15.1396 3.85347 15.015 4.20081C14.9048 4.50815 14.7632 4.80049 14.649 5.03616C14.6345 5.0661 14.6205 5.09513 14.607 5.12316C14.5566 5.2278 14.4896 5.35525 14.3948 5.47779C14.1224 5.82976 13.6457 6.27432 13.0323 6.37543C12.7101 6.42854 12.3669 6.38277 12.0326 6.19918C11.706 6.01974 11.4135 5.72323 11.1535 5.31458C10.5193 4.31806 10.6049 3.26144 10.9064 2.4214C11.1464 1.75307 11.659 1.18427 12.2635 0.898617Z" />
+													<path d="M17.6809 6.04621C17.5007 5.91767 17.2317 5.89108 16.9698 6.00071C16.4976 6.19832 16.0025 6.58528 15.8248 7.18311C15.6412 7.8004 15.7046 8.22074 15.8297 8.46804C15.9512 8.70832 16.1477 8.82666 16.3584 8.84523C16.6985 8.87521 17.0562 8.86118 17.3579 8.69638C17.6345 8.54529 17.9513 8.21835 18.1143 7.42891C18.1984 7.02206 18.1528 6.73097 18.0669 6.52401C17.9799 6.31413 17.8378 6.15805 17.6809 6.04621ZM16.5837 5.07824C17.1051 4.86005 17.7504 4.86756 18.2615 5.232C18.5443 5.43362 18.8203 5.73017 18.9907 6.14097C19.1622 6.5547 19.2132 7.05235 19.0937 7.63117C18.8855 8.63918 18.4276 9.25149 17.8373 9.57397C17.2721 9.88275 16.6707 9.87663 16.2706 9.84137C15.7087 9.79184 15.2116 9.46185 14.9373 8.91931C14.6665 8.3838 14.6317 7.68684 14.8662 6.8981C15.1592 5.91277 15.9478 5.34435 16.5837 5.07824Z" />
+													<path d="M10.2255 15.5337L11.4477 16.756C12.4796 17.7879 14.1526 17.7879 15.1845 16.756C16.2164 15.7241 16.2164 14.051 15.1845 13.0191L10.2255 8.06003L5.26638 13.0191C4.23448 14.051 4.23448 15.7241 5.26638 16.756C6.29828 17.7879 7.97134 17.7879 9.00324 16.756L10.2255 15.5337ZM10.9326 7.35292L15.8916 12.312C17.3141 13.7344 17.3141 16.0406 15.8916 17.4631C14.4692 18.8855 12.163 18.8855 10.7406 17.4631L10.2255 16.948L9.71034 17.4631C8.28792 18.8855 5.9817 18.8855 4.55927 17.4631C3.13685 16.0406 3.13685 13.7344 4.55927 12.312L9.51834 7.35292C9.90887 6.9624 10.542 6.9624 10.9326 7.35292Z" />
+												</svg>
+												<h3 class="accordion__title h4">
+                      Vad erbjuder ni för tjänster?
+                    </h3>
+												<svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-caret" viewBox="0 0 10 6">
+													<path fill-rule="evenodd" clip-rule="evenodd" d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" fill="currentColor">
+												</svg>
+											</summary>
+											<div class="accordion__content rte" id="CollapsibleAccordion-row-3-template--16569987072267__collapsible-content" role="region" aria-labelledby="Summary-row-3-template--16569987072267__collapsible-content">
+												<p>DjInhammar erbjuder många former av underhållning så som Live dj, fotograf, Music quiz och mycket mer. Vi erbjuder även uthyrning av allt fest relaterat. Om du som kund har frågor så går det utmärkt att kontakta oss på våran email djinhammar@gmail.com</p>
+											</div>
+										</details>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<div id="shopify-section-footer" class="shopify-section">
+		<style data-shopify>
+		.footer {
+			margin-top: 0px;
+		}
+		
+		.section-footer-padding {
+			padding-top: 30px;
+		}
+		
+		@media screen and (min-width: 750px) {
+			.footer {
+				margin-top: 0px;
+			}
+			.section-footer-padding {
+				padding-top: 40px;
+				padding-bottom: 40px;
+			}
+		}
+		</style>
+		<footer class="footer color-background-2 gradient section-footer-padding" style="border-top: solid .1rem rgba(var(--color-foreground), .08);">
+			<div class="footer__content-top page-width">
+				<div class="footer__blocks-wrapper grid grid--1-col grid--2-col grid--4-col-tablet ">
+					<div class="footer-block grid__item">
+						<h2 class="footer-block__heading">Kontakta oss</h2>
+						<div class="footer-block__details-content rte">
+							<p>DjInhammar@gmail.com
+								<br/>+46 70-433 18 22</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<ul hidden>
+		<li id="a11y-refresh-page-message">När du gör ett urval uppdateras sidan.</li>
+		<li id="a11y-new-window-message">Öppnas i ett nytt fönster.</li>
+	</ul>
+	<script>
+	window.shopUrl = 'https://djinhammar.myshopify.com';
+	window.routes = {
+		cart_add_url: '/cart/add',
+		cart_change_url: '/cart/change',
+		cart_update_url: '/cart/update',
+		cart_url: '/cart',
+		predictive_search_url: '/search/suggest'
+	};
+	window.cartStrings = {
+		error: `Ett fel uppstod när du uppdaterade din varukorg. Försök igen.`,
+		quantityError: `Du kan endast lägga till [quantity] av denna artikel i din varukorg.`
+	}
+	window.variantStrings = {
+		addToCart: `Lägg i varukorgen`,
+		soldOut: `Slutsåld`,
+		unavailable: `Ej tillgänglig`,
+	}
+	window.accessibilityStrings = {
+		imageAvailable: `Bilden [index] är nu tillgänglig i gallerivisning`,
+		shareSuccess: `Länken kopierades till urklipp`,
+		pauseSlideshow: `Pausa bildspelet`,
+		playSlideshow: `Spela bildspel`,
+	}
+	</script>
+</body>
+
+</html>
